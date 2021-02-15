@@ -21,4 +21,5 @@ func main() {
 
 	server := service.NewServer(appEnv)
 	server.Run(":" + port)
+	
 }
